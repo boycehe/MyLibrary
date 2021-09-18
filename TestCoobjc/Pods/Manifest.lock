@@ -1,0 +1,22 @@
+PODS:
+  - cocore (1.2.5)
+  - coobjc (1.2.0):
+    - cocore (~> 1.2.0)
+
+DEPENDENCIES:
+  - cocore (from `../../coobjc`)
+  - coobjc (from `../../coobjc`)
+
+EXTERNAL SOURCES:
+  cocore:
+    :path: "../../coobjc"
+  coobjc:
+    :path: "../../coobjc"
+
+SPEC CHECKSUMS:
+  cocore: 5099f3ba3f73e32c9c61ad9a388ae59fd4911a5f
+  coobjc: a05ac3a2831525e9e1adaf12fe4389ec0bf8eb72
+
+PODFILE CHECKSUM: 8e341b335f30cb7976c56b981f4479a3389eefc4
+
+COCOAPODS: 1.11.2
